@@ -1,0 +1,121 @@
+.gradebook-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+    table-layout: fixed;
+    margin-top: 20px;
+  }
+  
+  .gradebook-table th, .gradebook-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .gradebook-table .main-cell {
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .class-name {
+    color: #3f51b5;
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .student-name {
+    color: #3f51b5;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 2px 0 10px;
+  }
+  
+  .sort-dropdown {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .dropdown-arrow {
+    font-size: 14px;
+  }
+  
+  .sub-label {
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+  }
+  
+  .final-grade-header {
+    background-color: #d3d3d3;
+  }
+  
+  .student-entry {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .average-row {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  .student-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+  }
+  
+  .profile-pic {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #ccc;
+  }
+  .table-container {
+    width: 100%;       /* or set a max-width if you want */
+    max-height: 500px; /* for vertical scroll if too tall */
+    overflow-x: auto;  /* horizontal scroll */
+    overflow-y: auto;  /* vertical scroll */
+    border: 1px solid #ccc; /* optional: to make it look nice */
+  }
+
+
+  .gradebook-wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .gradebook-header {
+    background: white; /* important if scrolling over dark stuff */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding-bottom: 10px;
+  }
+  
+  .table-container {
+    width: 100%;       /* or set a max-width if you want */
+    max-height: 500px; /* for vertical scroll if too tall */
+    overflow-x: auto;  /* horizontal scroll */
+    overflow-y: auto;  /* vertical scroll */
+    border: 1px solid #ccc; /* optional: to make it look nice */
+  }
+  
+  table {
+    width: 100%; /* optional: forces table to fit container */
+    border-collapse: collapse; /* better table borders */
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  

@@ -1,0 +1,74 @@
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 18.5%;
+  margin-bottom: -20px;
+  
+}
+
+.student-info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.student-name {
+  font-weight: 600;
+  font-size: 16px;
+  color: #1a58c6;
+}
+
+.student-id {
+  font-weight: 5;
+  font-size: 13px;
+  color: #666;
+  margin-top: 2px;
+}
+
+.student-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.student-info-link a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+}
+
+.attendance-buttons {
+  display: flex;
+  gap: 8px;
+  
+}
+.update-button {
+margin-left: 82.5%;
+}
+
+.attendance-buttons button {
+  width: 35px;
+  height: 35px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.present {
+  background-color: #4055A8;
+  color: white;
+}
+
+.absent {
+  background-color: #666; 
+  color: white;
+}
+.submit-button {
+    margin-right: 40%;
+}

@@ -1,0 +1,68 @@
+/*Class Settings */
+.class-settings-layout {
+  max-width: 1000px;
+  width: 90%;
+  margin: 40px auto;
+  padding: 25px 30px;;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+}
+
+/* Label styles */
+.settings-form label {
+  font-weight: bold;
+  display: block;
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 4px;
+  position: relative;
+}
+
+/* Input and Textarea styles */
+.settings-form input{
+  width: 100%;
+  font-size: 15px;
+  padding: 12px;
+  border: none;
+  background-color: #edf3f5;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+}
+
+.settings-form textarea {
+  width: 100%;
+  font-size: 15px;
+  padding: 12px;
+  border: none;
+  background-color: #edf3f5;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+}
+
+.class-name {
+  width: 60%;       
+  height: 40px;     
+  padding: 6px 12px;
+}
+
+.settings-form textarea {
+  resize: none;
+  padding: 16px;
+  min-height: 140px;
+}
+
+
+.update-button:hover {
+  background-color: #2c3e91;
+}
+/*to keep it from highlighthing the text yellow*/
+input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #2b4db6; 
+  background-color: #edf3f5;   
+}

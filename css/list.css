@@ -1,0 +1,47 @@
+/* Shared Card Style */
+.list-card {
+    background-color: white;
+    padding: 0;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    max-width: 95%;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+  }
+  
+  /* Shared List Style */
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list li {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .list li:last-child {
+    border-bottom: none;
+  }
+  
+  .list a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 20px;
+    color: #1a58c6;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    transition: background 0.2s;
+  }
+  
+  .list a:hover {
+    background-color: #f0f5f9;
+  }
+  
+  .arrow {
+    color: #888;
+    font-size: 18px;
+  }

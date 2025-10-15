@@ -1,0 +1,62 @@
+.class-select {
+  display: flex;
+  gap: 10px;
+  margin-left: 61.5%;
+  margin-bottom: -20px;
+}
+
+.assignment-header-row {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  font-weight: 600;
+  padding: 16px 20px;
+  border-bottom: 2px solid #ccc;
+  background-color: #f8f9fb;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.assignment-row {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  align-items: center;
+  padding: 16px 20px;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: white;
+}
+
+
+.assignment-name,
+.assignment-category,
+.assignment-date,
+.assignment-time {
+  font-size: 15px;
+}
+
+.assignment-actions {
+  display: flex;
+  gap: 12px;
+  margin-right: 10%;
+  justify-content: flex-end;
+}
+
+.view-btn {
+  background: none;
+  border: none;
+  color: red;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: navy;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.assignment-row:hover {
+  background-color: #f0f5f9;
+}

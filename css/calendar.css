@@ -1,0 +1,123 @@
+/* Calendar Container */
+.calendar-container {
+  background: rgb(255, 255, 255);
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 20px;
+  height: 92%;
+  width: 96%;
+}
+
+/* Calendar Header */
+.calendar-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.calendar-title {
+  font-size: 35px;
+  color: #0f2747;
+  text-align: center;
+}
+
+.calendar-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  right: 0;
+}
+
+.calendar-nav-button, .calendar-today-button {
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #4055A8;
+  cursor: pointer;
+}
+
+/* Day Names Row */
+.calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background-color: #f5f7fa;
+  border-top: 1px solid #000000;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid #000000;
+  text-align: center;
+  padding: 8px 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: #000000;
+}
+
+/* Calendar Grid */
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar-grid div {
+  border: 1px solid #eee;
+  min-height: 115px;
+  border-left: 1px solid rgb(199, 199, 199);
+  border-right: 1px solid rgb(199, 199, 199);
+  border-bottom: 1px solid rgb(199, 199, 199);
+  padding: 5px;
+  position: relative;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+/* Date number */
+.day-number {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-weight: bold;
+}
+
+/* Today's date style */
+.today {
+  background-color: #4055A8;
+  color: white;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Events */
+.event {
+  background: #dbe4ff;
+  padding: 2px 10px;
+  margin-top: 25px;
+  margin-bottom: 2px;
+  border-radius: 12px;
+  font-size: 10px;
+  max-width: 95%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Previous and next month days */
+.other-month {
+  color: #ccc;
+}
+
+/* Hover effect for events */
+.event:hover {
+  background: #ffffff;
+  color: white;
+  cursor: pointer;
+}   

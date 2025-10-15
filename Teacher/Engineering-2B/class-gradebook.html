@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/teacher/classes.css" />
+  <link rel="stylesheet" href="/css/teacher/class-gradebook.css"/>
+  <title>HoustonPREP</title>
+</head>
+<body>
+  <div class="container">
+    
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <!-- Logo section with different background -->
+      <div class="sidebar-logo-section">
+        <div class="sidebar-header">
+          <a href="/index.html">
+            <img src="/assets/logo.png" alt="HoustonPrep Logo" class="logo-picture" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Main nav sections -->
+      <div class="sidebar-content">
+        <div class="nav-section">
+          <p class="section-title">TEACHER</p>
+          <ul class="nav-menu">
+            <li><a href="/Teacher/dashboard.html">Dashboard</a></li>
+            <li><a href="/Teacher/calendar.html">Calendar</a></li>
+            <li><a href="/Teacher/profile.html">Profile</a></li>
+            <li><a href="/Teacher/classes.html">Classes</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="nav-footer">
+        <a href="/Teacher/settings.html" class="settings-link">
+          <div class="user-profile">
+            <img src="/assets/zazuwar.jpg" alt="User Avatar" />
+            <div>
+              <p class="user-name">Samuel Nunez</p>
+              <p class="user-title">HoustonPREP Teacher</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </aside>
+
+    <!-- Top Bar -->
+    <header class="top-bar">
+      <div class="top-bar-right">
+        <div class="top-icons">
+          <span class="icon">📢</span>
+          <span class="icon">🔔</span>
+          <span class="icon">⋮</span>
+        </div>
+      </div>
+    </header>
+    
+    <!-- Page Main Content -->
+    <main class="content">
+      <h1 class="page-title">Engineering II - 2B</h1>
+    
+      <nav class="tab-menu">
+        <a class="active" href="class-gradebook.html">Gradebook</a>
+        <a href="class-assignments.html">Assignments</a>
+        <a href="class-students.html">Students</a>
+        <a href="class-settings.html">Settings</a>
+      </nav>
+  
+      <div class="table-container">
+        <table id="gradebookTable" class="gradebook-table">
+          <thead>
+            <tr>
+              <th rowspan="2" class="main-cell">
+                <p class="class-name">Class 2A:</p>
+                <p class="student-name">Jonathan Bolivar</p>
+                <div class="sort-dropdown">
+                  Sort by last name <span class="dropdown-arrow">▼</span>
+                </div>
+              </th>                  
+              <th colspan="5">Assignments</th>
+              <th rowspan="2" class="final-grade-header">
+                Final Grade<br /><span class="sub-label">out of 500</span>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <p>June 12th<br />Assign I</p>
+                <span class="sub-label">out of 100</span>
+              </th>
+              <th>
+                <p>June 21st<br />Assign II</p>
+                <span class="sub-label">out of 100</span>
+              </th>
+              <th>
+                <p>June 28th<br />Assign III</p>
+                <span class="sub-label">out of 100</span>
+              </th>
+              <th>
+                <p>July 8th<br />Assign IIII</p>
+                <span class="sub-label">out of 100</span>
+              </th>
+              <th>
+                <p>July 9th<br />Final Exam</p>
+                <span class="sub-label">out of 100</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody id="studentTableBody">
+              <!-- rows will be injected here, watch out samuel lols-->
+            </tbody>
+          <tfoot>
+            <tr class="average-row">
+              <td>Class Average</td>
+              <td>N/A</td><td>N/A</td><td>N/A</td><td>N/A</td><td>N/A</td><td>N/A</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </main>
+  </div>
+<script src="/js/gradebook.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/calendar.css" />
+  <title>HoustonPREP</title>
+</head>
+<body>
+  <div class="container">
+    
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <!-- Logo section with different background -->
+      <div class="sidebar-logo-section">
+        <div class="sidebar-header">
+          <a href="/index.html">
+            <img src="/assets/logo.png" alt="HoustonPrep Logo" class="logo-picture" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Main nav sections -->
+      <div class="sidebar-content">
+        <div class="nav-section">
+          <p class="section-title">ADMIN</p>
+          <ul class="nav-menu">
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="users.html">Users</a></li>
+            <li><a href="students.html">Students</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="groups.html">Groups</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="nav-footer">
+        <a href="settings.html" class="settings-link"> 
+          <div class="user-profile">
+            <img src="/assets/zazuwar.jpg" alt="User Avatar" />
+            <div>
+              <p class="user-name">Edgar Diaz</p>
+              <p class="user-title">HoustonPREP Admin</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </aside>
+
+    <!-- Top Bar -->
+    <header class="top-bar">
+      <div class="top-bar-right">
+        <div class="top-icons">
+          <span class="icon">📢</span>
+          <span class="icon">🔔</span>
+          <span class="icon">⋮</span>
+        </div>
+      </div>
+    </header>
+    
+    <!-- Page Main Content -->
+    <main class="content">
+      <h1 class="page-title">Calendar</h1>
+      <div class="calendar-container">
+        <div class="calendar-header">
+          <h2 id="monthYear" class="calendar-title"></h2>
+          <div class="calendar-controls">
+            <button id="prevMonth" class="calendar-nav-button">←</button>
+            <button id="todayButton" class="calendar-today-button">Today</button>
+            <button id="nextMonth" class="calendar-nav-button">→</button>
+          </div>
+        </div>
+      
+        <div class="calendar-days">
+          <div>Sunday</div>
+          <div>Monday</div>
+          <div>Tuesday</div>
+          <div>Wednesday</div>
+          <div>Thursday</div>
+          <div>Friday</div>
+          <div>Saturday</div>
+        </div>
+      
+        <div id="calendar" class="calendar-grid"></div>
+      </div>
+    </main>
+  </div>
+  <script src="/js/calendar.js"></script>
+</body>
+</html>

@@ -1,0 +1,208 @@
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px 0px 10px;
+  }
+  
+  .class-select {
+    display: flex;
+    margin-right: 21%;
+    align-items: center;
+    gap: 8px;
+    margin-left: 82.5%;
+  }
+  
+  .class-select label {
+    font-size: 18px;
+    color: #0f2747;
+    font-family: "Arial", sans-serif;
+
+  }
+  
+  .class-select select {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+
+.header {
+    background-color: #f0f3f5;
+    padding: 15px 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.dashboard-container {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    flex: 1;
+    min-width: 45%;
+}
+
+.card-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #030000;
+}
+
+/* Weekly Attendance Chart */
+.chart-container {
+    height: 150px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.chart-grid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.grid-line {
+    width: 100%;
+    height: 1px;
+    background-color: #e0e0e0;
+    position: relative;
+}
+
+.grid-line-label {
+    position: absolute;
+    left: 0;
+    top: -8px;
+    color: #888;
+    font-size: 12px;
+}
+
+.chart-bars {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 30px;
+}
+
+.bar {
+    width: 15px;
+    background-color: #4055A8;
+    position: relative;
+}
+
+.bar-label {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    width: 1000px;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+
+/* Daily Attendance Circle */
+.daily-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+    position: relative;
+}
+
+.circle-chart {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.circle-bg {
+    fill: none;
+    stroke: #f0f0f0;
+    stroke-width: 8;
+}
+
+.circle-progress {
+    fill: none;
+    stroke: #4055A8;
+    stroke-width: 8;
+    stroke-linecap: round;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+
+.circle-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.dashboard-button {
+    padding: 8px 30px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #4055A8;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.schedule-card {
+    background: white;
+    border: 1px solid #d0d7de;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 98%;
+  }
+  
+  
+  .schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-style:solid;
+    border-radius: 10px;
+    border-color:dimgray;
+
+  }
+  
+  .schedule-table th, .schedule-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .schedule-table th {
+    background-color: #f5f7fa;
+    color: #0f2747;
+    font-size: 14px;
+  }
+  
+  .schedule-table td {
+    font-size: 14px;
+  }

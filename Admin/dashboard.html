@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/dashboard.css" />
+  <title>HoustonPREP</title>
+</head>
+<body>
+  <div class="container">
+    
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <!-- Logo section with different background -->
+      <div class="sidebar-logo-section">
+        <div class="sidebar-header">
+          <a href="/index.html">
+            <img src="/assets/logo.png" alt="HoustonPrep Logo" class="logo-picture" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Main nav sections -->
+      <div class="sidebar-content">
+        <div class="nav-section">
+          <p class="section-title">ADMIN</p>
+          <ul class="nav-menu">
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="users.html">Users</a></li>
+            <li><a href="students.html">Students</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="groups.html">Groups</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="nav-footer">
+        <a href="settings.html" class="settings-link"> 
+          <div class="user-profile">
+            <img src="/assets/zazuwar.jpg" alt="User Avatar" />
+            <div>
+              <p class="user-name">Edgar Diaz</p>
+              <p class="user-title">HoustonPREP Admin</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </aside>
+
+    <!-- Top Bar -->
+    <header class="top-bar">
+      <div class="top-bar-right">
+        <div class="top-icons">
+          <span class="icon">📢</span>
+          <span class="icon">🔔</span>
+          <span class="icon">⋮</span>
+        </div>
+      </div>
+    </header>
+    
+    <!-- Page Main Content -->
+    <main class="content">
+      <div class="dashboard-header">
+        <h1 class="page-title">Dashboard</h1>
+    
+        <!-- Dropdown for classes -->
+        <div class="class-select">
+          <label for="classDropdown">Year:</label>
+          <select id="classDropdown">
+            <option value="2A" selected>1st</option>
+            <option value="2B">2nd</option>
+            <option value="2C">3rd</option>
+            <option value="2D">4th</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="dashboard-container">
+        <div class="card">
+          <div class="card-title">Weekly Attendance</div>
+          <div class="chart-container">
+            <div class="chart-grid">
+              <div class="grid-line">
+                <span class="grid-line-label">80%</span>
+              </div>
+              <div class="grid-line">
+                <span class="grid-line-label">60%</span>
+              </div>
+              <div class="grid-line">
+                <span class="grid-line-label">40%</span>
+              </div>
+              <div class="grid-line">
+                <span class="grid-line-label">20%</span>
+              </div>
+              <div class="grid-line"></div>
+            </div>
+            <div class="chart-bars">
+              <div class="bar" style="height: 82%;">
+                <div class="bar-label">6/19</div>
+              </div>
+              <div class="bar" style="height: 85%;">
+                <div class="bar-label">6/20</div>
+              </div>
+              <div class="bar" style="height: 86%;">
+                <div class="bar-label">6/21</div>
+              </div>
+              <div class="bar" style="height: 83%;">
+                <div class="bar-label">6/22</div>
+              </div>
+              <div class="bar" style="height: 15%;">
+                <div class="bar-label">6/23</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-title">Daily Attendance</div>
+          <div class="daily-container">
+            <div class="circle-chart">
+              <svg viewBox="0 0 100 100">
+                <circle class="circle-bg" cx="50" cy="50" r="40"></circle>
+                <circle class="circle-progress" cx="50" cy="50" r="40" stroke-dasharray="226 251" stroke-dashoffset="0"></circle>
+              </svg>
+                <div class="circle-text">90%</div>
+            </div>
+              <div class="dashboard-button">
+                <label for="classDropdown">Group:</label>
+                <select id="classDropdown">
+                  <option value="2A">1A-Eliza Khan</option>
+                  <option value="2B">1B-Gabriel Cocomado</option>
+                  <option value="2C" selected>1C-Abby Esquivel</option>
+                  <option value="2D">1D-Espe Sanchez</option>
+                </select>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dashboard-container">
+        <div class="card">
+          <div class="card-title">Grade Completion</div>
+          <div class="chart-container">
+            <div class="chart-grid">
+              <div class="grid-line">
+                <span class="grid-line-label">80%</span>
+              </div>
+              <div class="grid-line">
+                <span class="grid-line-label">60%</span>
+              </div>
+              <div class="grid-line">
+                <span class="grid-line-label">40%</span>
+              </div>
+              <div class="grid-line">
+                <span class="grid-line-label">20%</span>
+              </div>
+              <div class="grid-line"></div>
+            </div>
+            <div class="chart-bars">
+              <div class="bar" style="height: 82%;">
+                <div class="bar-label">Engineering I</div>
+              </div>
+              <div class="bar" style="height: 60%;">
+                <div class="bar-label">Computer Science</div>
+              </div>
+              <div class="bar" style="height: 86%;">
+                <div class="bar-label">Physics</div>
+              </div>
+              <div class="bar" style="height: 60%;">
+                <div class="bar-label">Data Science</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-title">Grade Average</div>
+          <div class="daily-container">
+            <div class="circle-chart">
+              <svg viewBox="0 0 100 100">
+                <circle class="circle-bg" cx="50" cy="50" r="40"></circle>
+                <circle class="circle-progress" cx="50" cy="50" r="40" stroke-dasharray="251 251" stroke-dashoffset="70.28"></circle>
+              </svg>
+                <div class="circle-text">72%</div>
+            </div>
+            <a href="/Admin/groups.html">
+              <button class="dashboard-button">View Grades</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/dashboard.css" />
+  <title>HoustonPREP</title>
+</head>
+<body>
+  <div class="container">
+    
+    <aside class="sidebar">
+      <!-- Logo section with different background -->
+      <div class="sidebar-logo-section">
+        <div class="sidebar-header">
+          <a href="/index.html">
+            <img src="/assets/logo.png" alt="HoustonPrep Logo" class="logo-picture" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Main nav sections -->
+      <div class="sidebar-content">
+        <div class="nav-section">
+          <p class="section-title">PROGRAM ASSISTANT</p>
+          <ul class="nav-menu">
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="students.html">Students</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="nav-footer">
+        <a href="settings.html" class="settings-link">
+          <div class="user-profile">
+            <img src="/assets/zazuwar.jpg" alt="User Avatar" />
+            <div>
+              <p class="user-name">Gabriel Cocomado</p>
+              <p class="user-title">HPREP Program Assistant</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </aside>
+
+    <!-- Top Bar -->
+    <header class="top-bar">
+      <div class="top-bar-right">
+        <div class="top-icons">
+          <span class="icon">📢</span>
+          <span class="icon">🔔</span>
+          <span class="icon">⋮</span>
+        </div>
+      </div>
+    </header>
+    
+    <!-- Page Main Content -->
+    <main class="content">
+      <h1 class="page-title">Dashboard</h1>
+      <div class="dashboard-container">
+        <div class="card">
+          <div class="card-title">Weekly Attendance</div>
+          <div class="chart-container">
+            <div class="chart-grid">
+              <div class="grid-line">
+                <span class="grid-line-label">80%</span>
+              </div>
+              <div class="grid-line">
+                <span class="grid-line-label">60%</span>
+              </div>
+              <div class="grid-line">
+                <span class="grid-line-label">40%</span>
+              </div>
+              <div class="grid-line">
+                <span class="grid-line-label">20%</span>
+              </div>
+              <div class="grid-line"></div>
+            </div>
+            <div class="chart-bars">
+              <div class="bar" style="height: 82%;">
+                <div class="bar-label">6/19</div>
+              </div>
+              <div class="bar" style="height: 85%;">
+                <div class="bar-label">6/20</div>
+              </div>
+              <div class="bar" style="height: 86%;">
+                <div class="bar-label">6/21</div>
+              </div>
+              <div class="bar" style="height: 83%;">
+                <div class="bar-label">6/22</div>
+              </div>
+              <div class="bar" style="height: 15%;">
+                <div class="bar-label">6/23</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-title">Daily Attendance</div>
+          <div class="daily-container">
+            <div class="circle-chart">
+              <svg viewBox="0 0 100 100">
+                <circle class="circle-bg" cx="50" cy="50" r="40"></circle>
+                <circle class="circle-progress" cx="50" cy="50" r="40" stroke-dasharray="226 251" stroke-dashoffset="0"></circle>
+              </svg>
+                <div class="circle-text">90%</div>
+            </div>
+            <button class="update-button">Update</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="schedule-card">
+        <div class="card-title">Schedule</div>
+        <table class="schedule-table">
+          <thead>
+            <ts>
+              <th>Period</th>
+              <th>Class</th>
+              <th>Time</th>
+              <th>Room</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Physics I</td>
+              <td>9:00–9:50am</td>
+              <td>S722</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Engineering II</td>
+              <td>10:00–10:50am</td>
+              <td>A625</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Peer Review</td>
+              <td>11:00–11:50am</td>
+              <td>N701</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Lunch</td>
+              <td>11:55–12:25pm</td>
+              <td>N701</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Linear Algebra</td>
+              <td>12:30–1:20pm</td>
+              <td>N707</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Data Science</td>
+              <td>1:25–2:15pm</td>
+              <td>N707</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

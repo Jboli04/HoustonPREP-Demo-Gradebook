@@ -1,0 +1,29 @@
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 18.5%;
+  margin-bottom: -20px;
+  
+}
+
+.student-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.student-name {
+  font-weight: 600;
+  font-size: 16px;
+  color: #1a58c6;
+}
+
+.student-id {
+  font-weight: 400;
+  font-size: 13px;
+  color: #666;
+  margin-top: 2px;
+}
+
+  /*  height: 12%;
+  width: 12%; */
