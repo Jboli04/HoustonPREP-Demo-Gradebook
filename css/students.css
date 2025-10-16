@@ -26,4 +26,16 @@
 }
 
   /*  height: 12%;
-  width: 12%; */
+  width: 12%; 
+  */
+
+.present-selected {
+  background-color: #e2ffe2; /* light green */
+  transition: 0.2s ease;
+}
+
+.absent-selected {
+  background-color: #ffe2e2; /* light red */
+  transition: 0.2s ease;
+}
+

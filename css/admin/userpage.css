@@ -1,0 +1,54 @@
+.student-detail {
+    background-color: white;
+    width: 95%;
+    height: 60%;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .back-link a {
+    color: black;
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+  
+  .student-name {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .student-class {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .student-class span {
+    color: #3b82f6; /* blue link */
+  }
+  
+  .assignments-container {
+    margin-top: 2rem;
+  }
+  
+  .assignments-list {
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 1rem;
+  }
+  
+  .assignment {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .assignment:last-child {
+    border-bottom: none;
+  }
+  
+  .na {
+    color: rgb(199, 71, 71);
+    font-weight: bold;
+  }

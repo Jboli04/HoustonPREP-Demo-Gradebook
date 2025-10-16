@@ -4,21 +4,27 @@
     align-items: center;
     margin: 0px 10px 0px 10px;
   }
-  
-  .class-select {
-    display: flex;
-    margin-right: 21%;
-    align-items: center;
-    gap: 8px;
-    margin-left: 82.5%;
-  }
-  
-  .class-select label {
-    font-size: 18px;
-    color: #0f2747;
-    font-family: "Arial", sans-serif;
 
-  }
+
+
+.class-select {
+  position: absolute;
+  top: 20px;      
+  right: 20px;    
+  display: flex;
+  align-items: center;
+  margin-top:70px;
+  margin-left: 60%;
+  margin-right:15px;
+  gap: 8px;
+}
+
+.class-select label {
+  font-size: 18px;
+  color: #0f2747;
+  font-weight: bold;
+  line-height: 1.5;         /* controls label height */
+}
   
   .class-select select {
     padding: 5px 10px;
@@ -27,6 +33,9 @@
     border-radius: 5px;
     
   }
+
+
+
 
 .header {
     background-color: #f0f3f5;
@@ -165,10 +174,15 @@
     background-color: #e0e0e0;
     border: none;
     border-radius: 4px;
+    font-weight:bold;
     font-size: 14px;
     color: #4055A8;
-    font-weight: 500;
     cursor: pointer;
+}
+
+.dashboard-button:hover 
+{
+    background-color: #d0d7de;
 }
 
 .schedule-card {

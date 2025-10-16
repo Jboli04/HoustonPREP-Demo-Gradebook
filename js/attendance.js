@@ -16,3 +16,4 @@ document.querySelectorAll('.attendance-buttons').forEach(group => {
       presentBtn.style.color = 'black';
     });
   });
+
