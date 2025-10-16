@@ -147,9 +147,9 @@ a {
 /* Page Title */
 .page-title {
   font-size: 28px;
-  color: #0f2747;
-  margin-left: 10px;
+  color: #00070f;
   margin-bottom: 15px;
+  font-weight: bold;
 }
 
 .back-link a {
@@ -168,8 +168,9 @@ a {
   font-weight: bold;
   cursor: pointer;
   display: block;
-  margin-left: auto;
+  margin-left: 172%;
   transition: background-color 0.2s ease;
+  width: 140px;
 }
 
 .update-button:hover {
