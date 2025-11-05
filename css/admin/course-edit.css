@@ -86,4 +86,13 @@
       padding: 1.5rem;
     }
   }
-  
+  .button-row{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 32%;
+  width: 0%;
+  display:block;
+  }
+  .update-button{
+    width:180px;
+  }
