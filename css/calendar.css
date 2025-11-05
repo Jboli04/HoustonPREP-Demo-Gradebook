@@ -5,7 +5,6 @@
   border-radius: 10px;
   padding: 20px;
   margin-left: 20px;
-  height: 92%;
   width: 96%;
 }
 
@@ -117,7 +116,7 @@
 
 /* Hover effect for events */
 .event:hover {
-  background: #2a7bbd;
+  background: #00478f;
   color: white;
   cursor: pointer;
 }   
